@@ -42,7 +42,7 @@ public class StreamBasics {
                 .filter(c->c.topSpeed>=200 && c.topSpeed<300)
                 .collect(Collectors.toList()));
         carArrayFilterList.stream().forEach(c -> System.out.println(c));
-
+        carArrayFilterList1.forEach(c-> System.out.println(c));
 //        Iterator iterator = names.iterator();
 //        while(iterator.hasNext()){
 //            System.out.println(iterator.next());
